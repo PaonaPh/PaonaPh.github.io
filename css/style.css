@@ -5,11 +5,10 @@
 	font-family: Century Gothic;
 }
 body{
-	background-image:url(../assets/background.jpg);
+	background-image:url(../assets/image/sunset-view-anime.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	text-align: center;
-	
 }
 
 .main{
@@ -31,11 +30,11 @@ body{
 
 .indexcontent{
 	display:flex;
+	margin-top: 20px;
 }
 .content{
 	display:block;
 	margin:auto;
-	margin:20px;
 	margin-left:40px;
 }
 .bio{
@@ -59,10 +58,9 @@ body{
 	border: 2px solid gray;
 	border-radius: 25px;
 	width: 600px;
-	height:200px;
+	
 	margin-bottom:20px;
 	padding:10px;
-	overflow:auto;
 }
 .interest:hover{
 	background-color:#0089ff24;
@@ -92,7 +90,6 @@ body{
 	margin-bottom:20px;
 }
 .index{
-	position:relative;
 	color: #fff;
 	background-image: linear-gradient(#53063f7d, #1800773b, #00006300);
 	box-shadow: 3px 5px 19px 6px #000000de;
@@ -100,7 +97,6 @@ body{
 	border-radius:15px;
 	width: 300px;
 	padding:20px;
-	margin-top: 20px;
 }
 .index:hover{
 	background-color:#86000033;
@@ -168,7 +164,11 @@ body{
 		margin-bottom:50px;
 	}
 	.index{
-		width:100%;
+		border-top-left-radius: 50%;
+		border-top-right-radius: 50%;
+		border-bottom-left-radius: ;
+		border-bottom-right-radius: ;
+		width:60%;
 		margin-bottom:50px;
 	}
 	.content{
