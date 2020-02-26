@@ -62,13 +62,11 @@ body{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	padding: 30px;
-	/* background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgb(12, 12, 12),rgba(0, 0, 0, 0.5)); */
-
 }
 .social-menu ul{
 	display: flex;
 	align-items: center;
+	padding: 0;
 }
 .social-menu ul li{
 	list-style: none;
