@@ -34,32 +34,6 @@ body{
 	text-transform: uppercase;
 	color: #fff;
 }
-/* .headings{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-transform: uppercase;
-	background-image: linear-gradient(black,rgba(0, 0, 0, 0.116));
-	color:#fff;
-}
-.headings marquee{
-	display: none;
-} */
-/* .gif
-{
-  transition: all 6s ease-in-out;
-  -webkit-transition: all 6s ease-in-out;
-  -moz-transition: all 6s ease-in-out;
-  -o-transition: all 6s ease-in-out;
-  -ms-transition: all 6s ease-in-out;
-}
-.gif:hover
-{
-  transform: translate(85vw,0);
-  -webkit-transform: translate(85vw,0);
-  -moz-transform: translate(85vw,0);
-  -o-transform: translate(85vw,0);
-  -ms-transform: translate(85vw,0);
-} */
 
 .project-list{
 	height: 100%;
@@ -84,10 +58,62 @@ body{
 .project button{
 	bottom:0;
 }
+.social-menu{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	/* background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgb(12, 12, 12),rgba(0, 0, 0, 0.5)); */
 
+}
+.social-menu ul{
+	display: flex;
+	align-items: center;
+}
+.social-menu ul li{
+	list-style: none;
+	margin: 0 15px;
+}
+.social-menu ul li .fa{
+	font-size: 25px;
+	line-height: 50px;
+	transition: .5s;
+	color:#000;
+}
+.social-menu ul li .fa:hover{
+	color: #fff;
+}
+.social-menu ul li a{
+	position: relative;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
+	transition: .5s;
+	box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover{
+	transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover{
+	background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover{
+	background-color: #e4405f;
+}
+.social-menu ul li:nth-child(3) a:hover{
+	background-color: #55acee;
+}
+.social-menu ul li:nth-child(4) a:hover{
+	background-color: #007785;
+}
 
 @media screen and (max-width:600px){
 	.profile{
+		margin: auto;
+		width: 100%;
 		color: #fff;
 		background-image: linear-gradient(rgba(1, 1, 49, 0.65),rgba(0, 255, 255, 0.431),rgba(1, 1, 32, 0));
 	}
