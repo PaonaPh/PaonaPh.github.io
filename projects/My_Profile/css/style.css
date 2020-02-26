@@ -1,0 +1,188 @@
+*{
+	box-sizing:border-box;
+	margin: 2px;
+	padding: 2px;
+	font-family: Century Gothic;
+}
+body{
+	background-image:url(../assets/image/sunset-view-anime.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+.main{
+	position:relative;
+	font-size: -webkit-xxx-large;
+    text-shadow: 1px 5px 3px black;
+	color:#fff;
+	border:1px solid black;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color:#65586f61;
+    box-shadow: 3px 5px 19px 6px black;
+	box-shadow: inset 3px 2px 20px 0px black;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+
+
+.indexcontent{
+	display:flex;
+	margin-top: 20px;
+}
+.content{
+	display:block;
+	margin:auto;
+	margin-left:40px;
+}
+.bio{
+	color:white;
+	background-color:rgba(255, 0, 0, 0.08);
+	width: 600px;
+	border: 2px solid gray;
+	padding:10px;
+	margin-bottom:20px;
+	border-radius: 25px;
+	box-shadow: 3px 5px 19px 6px #000000de;
+}
+.bio:hover{
+	background-color:#0089ff24;
+	box-shadow: inset 3px  2px 20px 0px black;
+}
+.interest{
+	color: #fff;
+	background-color:rgba(255, 0, 0, 0.08);
+	box-shadow: 3px 5px 19px 6px #000000de;
+	border: 2px solid gray;
+	border-radius: 25px;
+	width: 600px;
+	
+	margin-bottom:20px;
+	padding:10px;
+}
+.interest:hover{
+	background-color:#0089ff24;
+	box-shadow: inset 3px 2px 20px 0px black;
+}
+.studies{
+	color: #fff;
+	background-color:rgba(255, 0, 0, 0.08);
+	box-shadow: 3px 5px 19px 6px #000000de;
+	border: 2px solid gray;
+	border-radius: 25px;
+	width: 600px;
+	margin-bottom:20px;
+	padding:10px;
+}
+.studies:hover{
+	background-color:#0089ff24;
+	box-shadow: inset 3px 2px 20px 0px black;
+}
+.tq{
+	color: #fff;
+	background-color:rgba(255, 0, 0, 0.08);
+	box-shadow: 3px 5px 19px 6px #000000de;
+	border: 2px solid gray;
+	border-radius: 25px;
+	width: 600px;
+	margin-bottom:20px;
+}
+.index{
+	color: #fff;
+	background-image: linear-gradient(#53063f7d, #1800773b, #00006300);
+	box-shadow: 3px 5px 19px 6px #000000de;
+	border: 2px solid gray;
+	border-radius:15px;
+	width: 300px;
+	padding:20px;
+}
+.index:hover{
+	background-color:#86000033;
+	box-shadow: inset 3px 2px 20px 0px black;
+}
+#dp1{
+	border-radius:50%;
+	height:200px;
+	width:200px;
+	padding:0px;
+
+}
+#dp1:hover{
+	box-shadow: 3px 5px 19px 6px black;
+	height:200;
+	width:200;
+	background-image:url("assets/dp2.jpg");
+}
+#dp2{
+	display:none;
+}
+.contact ul h4{
+	color:#fff;
+	margin-bottom:10px;
+}
+.contact ul li{
+	display:inline-block;
+}
+.contact ul li a{
+	color: #fff;
+	padding: 7px 10px;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	text-decoration: none;
+	background-color:#d01f503d;
+	animation-name: y;
+	animation-duration:40s;
+	animation-iteration-count:infinite;
+}
+@keyframes y{
+	from{
+		background-color:rgba(73, 1, 1, 0.575);
+	}
+	to{
+		background-color:rgba(2, 2, 77, 0.74);
+	}
+}
+.contact a:hover{
+	background-color:#fff;
+	color:black;
+}
+@media screen and (max-width:1000px){
+	*{
+		margin:auto;
+		color:#fff;
+		font-family:bold;
+		padding:0.5px;
+	}
+	.indexcontent{
+		display:block;
+	}
+	.main{
+		margin:auto;
+		width:100%;
+		margin-bottom:50px;
+	}
+	.index{
+
+		width:90%;
+		margin-bottom:50px;
+	}
+	.content{
+		font-size:20px;
+		margin:auto;
+		display:block;
+	}
+	.bio{
+		width:90%;
+	}
+	.interest{
+		width:90%;
+	}
+	.studies{
+		width:90%;
+	}
+	.tq{
+		width:90%;
+	}
+}
