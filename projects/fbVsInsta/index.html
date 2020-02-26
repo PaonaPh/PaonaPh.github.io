@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Facebook vs Instagram</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="topic">
+                <p>FACEBOOK VS INSTAGRAM</p>
+            </div>
+            <div class="fbig">
+                <div class="rows">
+                    <div class="fb">
+                        <button class="btn btn-outline-primary" value="fb" onclick="counterfb()"><h2>Facebook</h2></button></br></br></br></br>
+                        <div class="counter">
+                            <h3 id="fbcounts">Clicks: 0</h3></br></br></br>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="rows">
+                    <div class="ig">
+                        <button class="btn btn-outline-danger" value="ig" onclick="counterig()"><h2>Instagram</h2></button></br></br></br></br>
+                        <div class="counter">
+                            <h3 id="igcounts">Clicks: 0</h3></br></br></br>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            var count=0;
+            var counts=0;
+            var a=document.getElementById("btn1").value;
+            var b=document.getElementById("btn2").value;    
+            function counterfb(){
+                    count=count+1;
+                    document.getElementById("fbcounts").innerHTML="Clicks:"+count;
+            }
+            function counterig(){
+                    counts=counts+1;
+                    document.getElementById("igcounts").innerHTML="Clicks:"+counts;
+               
+            }
+
+
+        </script>
+    </body>
+</html>
