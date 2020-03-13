@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../images/248812.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.image{
+    position: relative;
+    
+}
+#eye{
+    
+    height:600px;
+    width: 600px;
+    border-radius: 50%;
+    background-image: url(../images/sharingan.jpg);
+    background-size: cover;
+    }
+    #itachi{
+        top:10%;
+        left:33%;
+        position: absolute;
+        height:600px;
+    }
+#eye:hover{
+    animation: spin 3s ease;
+    background-image: url(../images/mangekyou-sharingan-itachi.jpeg);
+}
+
+@keyframes spin{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    40%{
+        transform: rotateZ(40deg);
+    }
+    60%{
+        transform: rotateZ(320deg);
+       
+        box-shadow: 0 0 100px 70px rgba(5, 0, 2, 0.918);
+    }
+
+}

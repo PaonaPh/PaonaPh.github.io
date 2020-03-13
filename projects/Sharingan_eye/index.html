@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharingan</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+        <div class="images">
+            <div id="eye" onmouseenter="playAudio()">
+            
+            </div>
+            <!-- <img id="eye" src="./assets/image/sharingan.jpg" onmouseenter="playAudio()"> -->
+            <img id="kakashi" src="./assets/image/Kakashi.png">
+        </div>
+        <audio id="audioID">
+            <source src="./assets/sound/Mangekyou_Sharingan-0a83e6ed-6bb6-3029-8202-02bb9df16874.mp3" type="audio/ogg">
+        </audio>
+
+        <script type="text/javascript">
+            var audio = document.getElementById("audioID");
+            function playAudio() {
+                audio.play();
+            }
+        </script>
+</body>
+</html>

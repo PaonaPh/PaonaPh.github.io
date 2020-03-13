@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../image/kakashi-susanoo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.images{
+   
+    
+}
+#eye{
+    position: relative;
+    height:600px;
+    width: 600px;
+    border-radius: 50%;
+    background-image: url(../image/sharingan.jpg);
+    background-size: cover;
+    }
+    #kakashi{
+        top: 0%;
+        left: 37%;
+        position: absolute;
+        height:600px;
+    }
+#eye:hover{
+    animation: spin 3s ease-in-out;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    40%{
+        transform: rotateZ(40deg);
+    }
+    60%{
+        transform: rotateZ(320deg);
+        background-image: url(../image/mangekyou-sharingan.jpg);
+        box-shadow: 0 0 100px 70px rgba(185, 3, 3, 0.657);
+    }
+
+}
